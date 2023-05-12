@@ -1,0 +1,79 @@
+/* This applies to all elements (bad practice) */
+* {
+	color: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* This css centers at the middle of the screen */
+#container {
+	padding: 400px;
+	text-shadow: 2px 2px 5px #424242;
+	position: absolute;
+    color: rgb(241, 235, 235);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 45px;
+	text-align: center;
+	background-color: #272727;
+	border-radius: 25px;
+	border: 2px solid #ff0000 ;
+}
+
+.small {
+	font-size: 25px;
+}
+
+.img {
+    position: absolute;
+    top: -10px;
+    left: 0px;
+}
+
+.line {
+    position: absolute;
+    top: 90px;
+    left: 0px;
+}
+
+.img2 {
+    position: absolute;
+    top: -17px;
+    left: 250px;
+}
+
+.cim {
+    position: absolute;
+    top: 150px;
+    left: 270px;
+}
+
+.sor {
+    position: absolute;
+    top: 230px;
+    left: 220px;
+}
+
+.sor2 {
+    position: absolute;
+    top: 290px;
+    left: 220px;
+}
+
+.sor3 {
+    position: absolute;
+    top: 350px;
+    left: 220px;
+}
+
+.sor4 {
+    position: absolute;
+    top: 410px;
+    left: 220px;
+}
+
+.sor5 {
+    position: absolute;
+    top: 470px;
+    left: 220px;
+}
