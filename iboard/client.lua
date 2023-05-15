@@ -2,6 +2,11 @@ local display = false
 local reteval = s_m_m_doctor_01
 local npc = CreatePed(4, 0xD47303AC, 295.58, -590.65, 42.24, 65.19, 0, false, true)
 
+RequestModel( GetHashKey( "s_m_m_doctor_01" ) )
+while ( not HasModelLoaded( GetHashKey( "s_m_m_doctor_01" ) ) ) do
+    Citizen.Wait( 1 )
+end
+
 Citizen.CreateThread(function() 
     SetPedDropsWeaponsWhenDead(npc, false)
     FreezeEntityPosition(npc, true)
