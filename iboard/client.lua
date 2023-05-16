@@ -4,7 +4,7 @@ local npc = CreatePed(4, 0xD47303AC, 295.58, -590.65, 42.24, 65.19, 0, false, tr
 
 RequestModel( GetHashKey( "s_m_m_doctor_01" ) )
 while ( not HasModelLoaded( GetHashKey( "s_m_m_doctor_01" ) ) ) do
-    Citizen.wait( 1 )
+    Citizen.Wait(10)
 end
 
 Citizen.CreateThread(function() 
