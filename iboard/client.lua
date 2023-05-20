@@ -65,3 +65,7 @@ Citizen.CreateThread(function()
     display = false
   })
 end)
+
+RegisterNUICallback("exit", function()
+  TriggerEvent("medmenu2:off")
+  end)
